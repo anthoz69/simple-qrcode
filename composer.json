@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Anthoz69\\QrCode\\": "src"
+            "SimpleSoftwareIO\\QrCode\\": "src"
         }
     },
     "scripts": {
@@ -34,10 +34,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Anthoz69\\QrCode\\QrCodeServiceProvider"
+                "SimpleSoftwareIO\\QrCode\\QrCodeServiceProvider"
             ],
             "aliases": {
-                "QrCode": "Anthoz69\\QrCode\\Facades\\QrCode"
+                "QrCode": "SimpleSoftwareIO\\QrCode\\Facades\\QrCode"
             }
         }
     }
